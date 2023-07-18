@@ -1,4 +1,4 @@
-FROM ghcr.io/eunomia-bpf/ecc-arm_64:latest
+FROM ghcr.io/eunomia-bpf/ecc-x86_64:latest
 
 COPY . /root/template
 WORKDIR /root/template
